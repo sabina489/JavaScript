@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fetch_project.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+    <title>GitHub API</title>
+  </head>
+  <body>
+    <div class="container">
+      <br><br>
+      <h1 style="text-align:center;">
+        This is GitHub
+      </h1>
+      <form id="myForm" autocomplete="off" >
+        <div class="form-group">
+          <input type="text" class="form-control" id="search" placeholder="search username" required>
+
+        </div>
+        <div class="form-group">
+          <button class="btn btn-danger btn-block">
+            search id
+          </button>
+        </div>
+        <div class="result">
+  <h2>Result GitHub</h2>
+        </div>
+      </form>
+
+
+
+      <!-- <header>
+        <h1>Typicode Todos</h1>
+      </header>
+      <main>
+        <form id="todo-form">
+          <input type="text" id="title" placeholder="Add Todo..." />
+          <button type="submit">Add</button>
+        </form>
+
+        <div id="todo-list"></div>
+      </main> -->
+    </div>
+
+    <script src="JS/fetch_project.js"></script>
+  </body>
+</html>
